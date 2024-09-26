@@ -114,7 +114,7 @@ export default {
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
-        URL302,
+        URL302 = "https://cf-workers-proxy-duck-ai.pages.dev/",
         IP_WHITELIST_REGEX,
         IP_BLACKLIST_REGEX,
         REGION_WHITELIST_REGEX,
