@@ -109,7 +109,7 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
+        PROXY_HOSTNAME = "duckduckgo.com/chat",
         PROXY_PROTOCOL = "https",
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
