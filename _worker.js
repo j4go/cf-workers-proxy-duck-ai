@@ -111,7 +111,7 @@ export default {
       const {
         PROXY_HOSTNAME = "duckduckgo.com",
         PROXY_PROTOCOL = "https",
-        PATHNAME_REGEX = "^/chat/",
+        PATHNAME_REGEX = "^/chat",
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
         URL302,
