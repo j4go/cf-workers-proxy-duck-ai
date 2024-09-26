@@ -109,12 +109,12 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const {
-        PROXY_HOSTNAME = "duck.ai",
+        PROXY_HOSTNAME = "duckduckgo.com/chat/",
         PROXY_PROTOCOL = "https",
         PATHNAME_REGEX,
         UA_WHITELIST_REGEX,
         UA_BLACKLIST_REGEX,
-        URL302 = "https://cf-workers-proxy-duck-ai.pages.dev/",
+        URL302,
         IP_WHITELIST_REGEX,
         IP_BLACKLIST_REGEX,
         REGION_WHITELIST_REGEX,
